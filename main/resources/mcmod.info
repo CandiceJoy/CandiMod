@@ -1,0 +1,16 @@
+[
+{
+  "modid": "candimod",
+  "name": "Candice's Mod",
+  "description": "This is Candice's awesome mod of Candiness :D",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://www.candicejoy.com",
+  "updateUrl": "",
+  "authorList": ["Candice"],
+  "credits": "JamOORev for being awesome",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

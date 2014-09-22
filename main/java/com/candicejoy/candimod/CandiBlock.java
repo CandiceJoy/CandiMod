@@ -11,11 +11,11 @@ import net.minecraft.item.Item;
 public class CandiBlock extends Block
 {
 	private static final String NAME = "candiblock";
-	
+
 	public CandiBlock()
 	{
 		super( Material.craftedSnow );
-		
+
 		setHardness( 0.5F );
 		setStepSound( Block.soundTypePiston );
 		setBlockName( NAME );
@@ -24,12 +24,12 @@ public class CandiBlock extends Block
 		setResistance( 3.0F );
 		setBlockTextureName( CandiMod.MODID + ":" + NAME );
 	}
-	
-	public Item getItemDropped( int metadata, Random random, int fortune ) 
+
+	public Item getItemDropped( int metadata, Random random, int fortune )
 	{
-        return Item.getItemFromBlock( Blocks.dragon_egg );
-    }
-	
+		return Item.getItemFromBlock( Blocks.dragon_egg );
+	}
+
 	public int quantityDropped( int meta, int fortune, Random random )
 	{
 		return 17;

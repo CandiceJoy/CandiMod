@@ -19,14 +19,14 @@ public class CandiMod
 
 	@EventHandler
 	public void init( FMLInitializationEvent event )
-	{		
+	{
 		GameRegistry.registerBlock( CANDIBLOCK, "candiblock" );
-		
+
 		ItemStack candiblock_stack = new ItemStack( CANDIBLOCK );
 		ItemStack anvil = new ItemStack( Blocks.anvil );
 		ItemStack wool = new ItemStack( Blocks.wool );
 		ItemStack diamond = new ItemStack( Blocks.diamond_block );
-		
+
 		GameRegistry.addRecipe( candiblock_stack, "aaa", "bbb", "ccc", 'a', anvil, 'b', wool, 'c', diamond );
 		GameRegistry.registerWorldGenerator( new CandiWorldGenerator(), 3 );
 	}

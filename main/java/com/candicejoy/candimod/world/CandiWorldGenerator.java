@@ -21,8 +21,8 @@ public class CandiWorldGenerator implements IWorldGenerator
 			int x = chunk_x * 16;
 			int z = chunk_z * 16;
 			int min_vein_size = 1;
-			int max_vein_size = 50;
-			int chances_to_spawn = 10;
+			int max_vein_size = 4;
+			int chances_to_spawn = 1;
 			int min_y = 0;
 			int max_y = 100;
 
